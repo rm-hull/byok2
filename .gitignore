@@ -3,10 +3,10 @@ pom.xml.asc
 *jar
 /lib/
 /classes/
+/doc/api/
 /target/
-/checkouts/
 .lein-deps-sum
 .lein-repl-history
-.lein-plugins/
 .lein-failures
 .nrepl-port
+doc/api
