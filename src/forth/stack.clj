@@ -9,10 +9,10 @@
    `(defstackop ~operator "" ~operands ~body))
 
   ([operator doc operands body]
-  `(defn ~(symbol operator) ~doc [~'stack]
-    (let [[~@operands & ~'stack] ~'stack]
-      (if-not (and ~@operands)
-        (throw (RuntimeException. "Stack Underflow"))
-        (if-let [r# ~body]
-          (flatten (push r# ~'stack))
-          ~'stack))))))
+   `(defn ~(symbol operator) ~doc [~'stack]
+      (let [[~@operands & ~'stack] ~'stack]
+        (if-not (and ~@operands)
+          (throw (RuntimeException. "Stack Underflow"))
+          (if-let [r# ~body]
+            (flatten (push r# ~'stack))
+            ~'stack))))))
