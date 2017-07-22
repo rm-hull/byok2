@@ -1,4 +1,4 @@
-# BYOK
+# BYOK2
 [![Build Status](https://travis-ci.org/rm-hull/byok2.svg?branch=master)](http://travis-ci.org/rm-hull/byok2)
 [![Coverage Status](https://coveralls.io/repos/rm-hull/byok2/badge.svg?branch=master)](https://coveralls.io/r/rm-hull/byok2?branch=master)
 [![Dependencies Status](https://jarkeeper.com/rm-hull/byok2/status.svg)](https://jarkeeper.com/rm-hull/byok2)
